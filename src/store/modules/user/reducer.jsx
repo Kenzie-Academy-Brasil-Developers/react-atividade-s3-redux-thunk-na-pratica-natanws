@@ -5,7 +5,7 @@ const initialState = { name: "Kenzie", comments: [] };
 const userReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_COMMENT:
-      return action.updateUser;
+      return action.updatedUser;
     default:
       return state;
   }
